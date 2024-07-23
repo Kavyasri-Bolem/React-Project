@@ -6,16 +6,48 @@ This repository contains a full-stack web application that uses Spring Boot for 
 
 ## Project Structure
 my-project/
-├── backend/
-│ ├── src/
-│ ├── target/
-│ ├── pom.xml
-│ └── ...
-└── frontend/
-├── public/
-├── src/
-├── package.json
-└── ...
+├── backend/                     # Spring Boot backend
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/            # Main Java source files
+│   │   │   │   └── com/example/
+│   │   │   │       └── myproject/
+|   |   |   |           ├── Config/
+│   │   │   │           ├── controller/
+│   │   │   │           ├── model/
+│   │   │   │           ├── repository/
+│   │   │   │           ├── service/
+│   │   │   │           └── MyProjectApplication.java
+│   │   │   ├── resources/       # Resource files
+│   │   │   │   ├── static/      # Static files (HTML, CSS, JavaScript)
+│   │   │   │   ├── templates/   # Template files (Thymeleaf, etc.)
+│   │   │   │   └── application.properties
+│   │   └── test/                # Test files
+│   │       ├── java/
+│   │       │   └── com/example/
+│   │       │       └── myproject/
+│   │       │           └── MyProjectApplicationTests.java
+│   ├── target/                  # Compiled files (generated)
+│   ├── .gitignore
+│   ├── pom.xml                  # Maven configuration file
+│   └── README.md
+├── frontend/                    # ReactJS frontend
+│   ├── public/                  # Public files (static assets)
+│   │   ├── index.html
+│   │   └── ...
+│   ├── src/                     # React source files
+│   │   ├── components/          # React components
+│   │   ├── App.js               # Main React component
+│   │   ├── index.js             # Entry point of the React application
+│   │   └── ...
+│   ├── node_modules/            # Node.js modules (generated)
+│   ├── .gitignore
+│   ├── package.json             # npm configuration file
+│   ├── package-lock.json
+│   └── README.md
+├── .gitignore
+└── README.md                    # Project README file
+
 
 ## Prerequisites
 
