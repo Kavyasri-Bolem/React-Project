@@ -1,0 +1,18 @@
+/* Card class */
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125); /* Bootstrap default border */
+  border-radius: 0.25rem; /* Bootstrap default border radius */
+  padding: 1.25rem; /* Bootstrap default padding */
+  margin-bottom: 1rem; /* Bootstrap default margin bottom */
+  max-width:250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image class */
+.card .card-image {
+  max-width: 60%; /* Decrease maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make it round */
+  margin-bottom: 0.625rem; /* Adjust margin bottom */
+}
