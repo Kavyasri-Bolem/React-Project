@@ -16,6 +16,7 @@ my-project/
 ├── src/
 ├── package.json
 └── ...
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
@@ -28,11 +29,11 @@ Before you begin, ensure you have the following installed on your machine:
 ## Getting Started
 
 ### Backend (Spring Boot)
-Controller package : for request handling controllers
-Config package : for configuration required to accepts get/post/put/delete mappings
-Model package : for creating model class based on requirement
-Repository Package : for Data Access layer using spring data Jpa/ spring mongo db
-Service Package : for business logics
+Controller package : for request handling controllers.
+Config package : for configuration required to accepts get/post/put/delete mappings.
+Model package : for creating model class based on requirement.
+Repository Package : for Data Access layer using spring data Jpa/ spring mongo db.
+Service Package : for business logics.
 ### Application.properties
 To configure the server and db connections
 ### Frontend (React.js)
